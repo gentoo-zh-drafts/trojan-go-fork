@@ -12,6 +12,6 @@ jobs:
       contents: write
     steps:
       - name: Update mirror
-        uses: projg2/golang-dist-mirror-action@v1
+        uses: peeweep/golang-dist-mirror-action@v1
         with:
           token: ${{ secrets.PUSH_TOKEN }}
